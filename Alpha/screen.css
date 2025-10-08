@@ -1,0 +1,42 @@
+.Info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 480px;
+    padding-bottom: 100px;
+}
+
+ .Intro {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 480px;
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+
+.center {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 30px;
+}
+
+img {
+    height: 250px;
+    width: 350px;
+}
+
+li {
+    font-size: 18px;
+}
