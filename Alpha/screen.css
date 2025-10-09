@@ -29,15 +29,18 @@ a {
 .Info {
     display: flex;
     flex-direction: column;
-    padding-left: 480px;
-    padding-bottom: 100px;
+    padding-left: 400px;
+    padding-bottom: 30px;
 }
 
 
 .center {
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: auto;
+    padding-bottom: 100px;
     padding: 10px;
+    row-gap: 100px;
     box-sizing: border-box;
 }
