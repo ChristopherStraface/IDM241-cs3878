@@ -55,7 +55,7 @@ a {
     padding: 0.4rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     display: inline-block;
-    border-radius: 0.4rem;
+    /* border-radius: 0.4rem; */
   }
 
   .webtms-button {
