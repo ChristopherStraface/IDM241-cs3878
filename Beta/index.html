@@ -19,11 +19,11 @@
     <br>
     <br>
 
-    '    <a href="https://catalog.drexel.edu/" target="_blank">Chosen objects: Drexel Catalog Term Master Schedule Button, Search Button, and Search Text-field</a>
+    '    <a href="https://catalog.drexel.edu/" target="_blank">Link to Drexel Catalog page</a>
     <div class="Info">
         <h1>Triggers:</h1>
         <ul>
-            <li>Term Master Schedule WebTMS button - Right side, below search:</li>
+            <li class="objectHeader">Term Master Schedule WebTMS button - Right side, below search:</li>
             <br>
             <ul>
                 <li>Hover on</li>
@@ -45,7 +45,7 @@
         </ul>
 
         <ul>
-            <li>Search button - Right side, above WebTMS Button:</li>
+            <li class="objectHeader">Search button - Right side, above WebTMS Button:</li>
             <br>
             <ul>
                 <li>Hover on</li>
@@ -67,7 +67,7 @@
         </ul>
 
         <ul>
-            <li>Search text-field - Right side, left of Search Button:</li>
+            <li class="objectHeader">Search text-field - Right side, left of Search Button:</li>
             <br>
             <ul>
                 <li>Hover on</li>
@@ -94,14 +94,14 @@
 
         <h1>Rules:</h1>
         <ul>
-            <li>Term Master Schedule WebTMS button:</li>
+            <li class="objectHeader">Term Master Schedule WebTMS button:</li>
             <br>
             <ul>
                 <li>Hover on:</li>
                 <ul>
                     <li>The cursor changes to the finger icon</li>
-                    <li>Button changes color to a lighter blue</li>
-                    <li>Text becomes underlined</li>
+                    <li>Button color fades to a lighter blue in 0.5 seconds</li>
+                    <li>An underline fades in below the text in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -111,8 +111,8 @@
                 <li>Hover off:</li>
                 <ul>
                     <li>The cursor reverts to the default pointer</li>
-                    <li>Button color reverts to original darker blue</li>
-                    <li>The underlined text loses its underline</li>
+                    <li>Button color fades back to original dark blue in 0.5 seconds</li>
+                    <li>The underline below the text fades out in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -126,14 +126,14 @@
 
             <br>
             <br>
-            <li>Search button:</li>
+            <li class="objectHeader">Search button:</li>
             <br>
             <ul>
                 <li>Hover on:</li>
                 <ul>
                     <li>The cursor changes to the finger icon</li>
-                    <li>Button changes color to a lighter blue</li>
-                    <li>Text becomes underlined</li>
+                    <li>Button color fades to a lighter blue in 0.5 seconds</li>
+                    <li>An underline fades in below the text in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -143,8 +143,8 @@
                 <li>Hover off:</li>
                 <ul>
                     <li>The cursor reverts to the default pointer</li>
-                    <li>Button color reverts to original darker blue</li>
-                    <li>The underlined text loses its underline</li>
+                    <li>Button color fades back to original dark blue in 0.5 seconds</li>
+                    <li>The underline below the text fades out in 0.5 seconds</li>
                 </ul>
             </ul>
 
@@ -155,18 +155,19 @@
                 <li>Click:</li>
                 <ul>
                     <li>Takes user to the search results page in the same tab</li>
-                    <li>Stores any inputted text from the text-field and puts it in the URL</li>
+                    <li>Stores any inputted text from the text-field into a database</li>
+                    <li>User-inputted text from the text-field gets displayed in the URL</li>
                 </ul>
             </ul>
             <br>
             <br>
-            <li>Search text-field:</li>
+            <li class="objectHeader">Search text-field:</li>
             <br>
             <ul>
                 <li>Hover on:</li>
                 <ul>
                     <li>The cursor changes to the I-beam pointer</li>
-                    <li>Slight shadow added around the text-field</li>
+                    <li>Slight shadow appears around the text-field in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -176,7 +177,7 @@
                 <li>Hover off:</li>
                 <ul>
                     <li>The cursor reverts to the default pointer</li>
-                    <li>Slight shadow around-text field disappears</li>
+                    <li>Slight shadow around text-field disappears in 0.5 seconds</li>
                 </ul>
             </ul>
 
@@ -186,9 +187,9 @@
             <ul>
                 <li>Click on:</li>
                 <ul>
-                    <li>Type indicator icon starts flickering</li>
-                    <li>Black border appears around text-field</li>
-                    <li>Sample typing text added</li>
+                    <li>Type indicator icon starts flickering in 0.5 second intervals</li>
+                    <li>Black border appears around text-field in 0.5 seconds</li>
+                    <li>Sample typing text gets added to the field in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -196,9 +197,9 @@
             <ul>
                 <li>Click off:</li>
                 <ul>
-                    <li>Type indicator icon disappears</li>
-                    <li>Black border around text-field disappears</li>
-                    <li>Sample typing text removed/Replaced with user-inputted text</li>
+                    <li>Type indicator icon fades out in 0.5 seconds</li>
+                    <li>Black border around text-field fades out in 0.5 seconds</li>
+                    <li>Sample typing text fades out in 0.5 seconds OR is replaced by any user-inputted text in the text-field</li>
                 </ul>
             </ul>
 
@@ -208,14 +209,14 @@
 
         <h1>Feedback:</h1>
         <ul>
-            <li>Term Master Schedule WebTMS button:</li>
+            <li class="objectHeader">Term Master Schedule WebTMS button:</li>
             <br>
             <ul>
                 <li>Hover on:</li>
                 <ul>
                     <li>The cursor changes to the finger icon</li>
-                    <li>Button changes color to a lighter blue</li>
-                    <li>Text becomes underlined</li>
+                    <li>Button color fades to a lighter blue in 0.5 seconds</li>
+                    <li>An underline fades in below the text in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -225,29 +226,29 @@
                 <li>Hover off:</li>
                 <ul>
                     <li>The cursor reverts to the default pointer</li>
-                    <li>Button color reverts to original darker blue</li>
-                    <li>The underlined text loses its underline</li>
+                    <li>Button color fades back to original dark blue in 0.5 seconds</li>
+                    <li>The underline below the text fades out in 0.5 seconds</li>
                 </ul>
-                <br>
-                <br>
             </ul>
-             <ul>
+            <br>
+            <ul>
                 <li>Click:</li>
                 <ul>
                     <li>Opens respective page in new tab</li>
                 </ul>
             </ul>
 
+
             <br>
             <br>
-            <li>Search button:</li>
+            <li class="objectHeader">Search button:</li>
             <br>
             <ul>
                 <li>Hover on:</li>
                 <ul>
                     <li>The cursor changes to the finger icon</li>
-                    <li>Button changes color to a lighter blue</li>
-                    <li>Text becomes underlined</li>
+                    <li>Button color fades to a lighter blue in 0.5 seconds</li>
+                    <li>An underline fades in below the text in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -257,8 +258,8 @@
                 <li>Hover off:</li>
                 <ul>
                     <li>The cursor reverts to the default pointer</li>
-                    <li>Button color reverts to original darker blue</li>
-                    <li>The underlined text loses its underline</li>
+                    <li>Button color fades back to original dark blue in 0.5 seconds</li>
+                    <li>The underline below the text fades out in 0.5 seconds</li>
                 </ul>
             </ul>
 
@@ -269,18 +270,18 @@
                 <li>Click:</li>
                 <ul>
                     <li>Takes user to the search results page in the same tab</li>
-                    <li>Stores any inputted text from the text-field and puts it in the URL</li>
+                    <li>User-inputted text from the text-field gets dissplayed in the URL</li>
                 </ul>
             </ul>
             <br>
             <br>
-            <li>Search text-field:</li>
+            <li class="objectHeader">Search text-field:</li>
             <br>
             <ul>
                 <li>Hover on:</li>
                 <ul>
                     <li>The cursor changes to the I-beam pointer</li>
-                    <li>Slight shadow added around the text-field</li>
+                    <li>Slight shadow appears around the text-field in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -290,7 +291,7 @@
                 <li>Hover off:</li>
                 <ul>
                     <li>The cursor reverts to the default pointer</li>
-                    <li>Slight shadow around-text field disappears</li>
+                    <li>Slight shadow around text-field disappears in 0.5 seconds</li>
                 </ul>
             </ul>
 
@@ -300,9 +301,9 @@
             <ul>
                 <li>Click on:</li>
                 <ul>
-                    <li>Type indicator icon starts flickering</li>
-                    <li>Black border appears around text-field</li>
-                    <li>Sample typing text added</li>
+                    <li>Type indicator icon starts flickering in 0.5 second intervals</li>
+                    <li>Black border appears around text-field in 0.5 seconds</li>
+                    <li>Sample typing text gets added to the field in 0.5 seconds</li>
                 </ul>
             </ul>
             <br>
@@ -310,9 +311,9 @@
             <ul>
                 <li>Click off:</li>
                 <ul>
-                    <li>Type indicator icon disappears</li>
-                    <li>Black border around text-field disappears</li>
-                    <li>Sample typing text removed/Replaced with user-inputted text</li>
+                    <li>Type indicator icon fades out in 0.5 seconds</li>
+                    <li>Black border around text-field fades out in 0.5 seconds</li>
+                    <li>Sample typing text fades out in 0.5 seconds OR is replaced by any user-inputted text in the text-field</li>
                 </ul>
             </ul>
 
