@@ -160,16 +160,19 @@ input[type="text"]:focus {
     font-weight: 900;
 }
 
-
 #customInput {
   transition: color 0.3s ease;
   color: transparent;
 }
 
-
 #customInput.placeholder-active {
   color: #aaa;
   opacity: 0.8;
+}
+
+#customInput.typing-active {
+    color: black;
+    opacity: 1;
 }
 
 
