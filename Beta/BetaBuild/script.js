@@ -1,6 +1,8 @@
 const input = document.getElementById('customInput');
 const PLACEHOLDER = 'Type here';
-const FADE_DURATION = 400; // match CSS duration
+const FADE_DURATION = 400;
+
+let isPlaceholderActive = false; // 👈 tracks if placeholder text was programmatically set
 
 // When user focuses (clicks into) the input
 input.addEventListener('focus', () => {
@@ -8,19 +10,18 @@ input.addEventListener('focus', () => {
     input.value = PLACEHOLDER;
     input.classList.add('placeholder-active');
     input.classList.remove('typing-active');
-    input.setSelectionRange(0, 0); // caret before "T"
+    input.setSelectionRange(0, 0);
+    isPlaceholderActive = true; // placeholder is now showing
   }
 });
 
 // If user starts typing while "Type here" is visible
 input.addEventListener('keydown', (e) => {
-  if (
-    input.classList.contains('placeholder-active') &&
-    input.value === PLACEHOLDER
-  ) {
+  if (isPlaceholderActive && input.value === PLACEHOLDER) {
     input.classList.remove('placeholder-active');
     input.classList.add('typing-active');
     input.value = '';
+    isPlaceholderActive = false; // user began typing
   }
 });
 
@@ -28,22 +29,24 @@ input.addEventListener('keydown', (e) => {
 input.addEventListener('blur', () => {
   const val = input.value.trim();
 
-  if (val === '' || val === PLACEHOLDER) {
-    input.classList.remove('typing-active'); // 👈 remove user-text style
+  if ((val === '' || (val === PLACEHOLDER && isPlaceholderActive))) {
+    // Only fade if placeholder was truly active (not user typed)
+    input.classList.remove('typing-active');
     input.classList.remove('placeholder-active');
 
-    // After fade completes, clear only if still empty
     setTimeout(() => {
       if (
         document.activeElement !== input &&
-        (input.value.trim() === '' || input.value === PLACEHOLDER)
+        (input.value.trim() === '' || (input.value === PLACEHOLDER && isPlaceholderActive))
       ) {
         input.value = '';
+        isPlaceholderActive = false;
       }
     }, FADE_DURATION);
   } else {
-    // User typed something — keep their text visible
+    // User text (even if it's literally "Type here") stays visible
     input.classList.remove('placeholder-active');
     input.classList.add('typing-active');
+    isPlaceholderActive = false;
   }
 });
