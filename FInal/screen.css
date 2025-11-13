@@ -84,6 +84,17 @@ a {
     align-items: center;
   }
 
+    .FinalImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .FinalImages img {
+    height: 200px;
+    width: 500px;
+  }
+
   .ImageHeaders {
     display: flex;
     flex-direction: row;
