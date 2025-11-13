@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cs3878 Beta</title>
+    <link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+    <br>
+    <!-- <div class="betabuildbutton">
+        <div class="button-container">
+            <a href="https://termmasterschedule.drexel.edu/webtms_du/" target="_blank" class="webtms-button">Term Master
+                Schedule WebTMS</a>
+        </div>
+    </div> -->
+    <br>
+    <br>
+
+    '    <a href="https://catalog.drexel.edu/" target="_blank">Link to Drexel Catalog page</a>
+    <div class="Info">
+        <h1>THIS IS THE FINAL Triggers:</h1>
+        <ul>
+            <li class="objectHeader">Term Master Schedule WebTMS button - Right side, below search:</li>
+            <br>
+            <ul>
+                <li>Hover on</li>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off</li>
+            </ul>
+
+            <br>
+            <!-- <li>Click:</li> -->
+            <br>
+            <ul>
+                <li>Click</li>
+            </ul>
+
+        </ul>
+
+        <ul>
+            <li class="objectHeader">Search button - Right side, above WebTMS Button:</li>
+            <br>
+            <ul>
+                <li>Hover on</li>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off</li>
+            </ul>
+
+            <br>
+            <!-- <li>Click:</li> -->
+            <br>
+            <ul>
+                <li>Click</li>
+            </ul>
+
+        </ul>
+
+        <ul>
+            <li class="objectHeader">Search text-field - Right side, left of Search Button:</li>
+            <br>
+            <ul>
+                <li>Hover on</li>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off</li>
+            </ul>
+            <br>
+            <!-- <li>Click:</li> -->
+            <br>
+            <ul>
+                <li>Click on</li>
+            </ul>
+            <br>
+            <br>
+            <ul>
+                <li>Click off</li>
+            </ul>
+
+        </ul>
+
+        <h1>Rules:</h1>
+        <ul>
+            <li class="objectHeader">Term Master Schedule WebTMS button:</li>
+            <br>
+            <ul>
+                <li>Hover on:</li>
+                <ul>
+                    <li>The cursor changes to the finger icon</li>
+                    <li>Button color fades to a lighter blue in 0.5 seconds</li>
+                    <li>An underline fades in below the text in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off:</li>
+                <ul>
+                    <li>The cursor reverts to the default pointer</li>
+                    <li>Button color fades back to original dark blue in 0.5 seconds</li>
+                    <li>The underline below the text fades out in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <ul>
+                <li>Click:</li>
+                <ul>
+                    <li>Opens respective page in new tab</li>
+                </ul>
+            </ul>
+
+
+            <br>
+            <br>
+            <li class="objectHeader">Search button:</li>
+            <br>
+            <ul>
+                <li>Hover on:</li>
+                <ul>
+                    <li>The cursor changes to the finger icon</li>
+                    <li>Button color fades to a lighter blue in 0.5 seconds</li>
+                    <li>An underline fades in below the text in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off:</li>
+                <ul>
+                    <li>The cursor reverts to the default pointer</li>
+                    <li>Button color fades back to original dark blue in 0.5 seconds</li>
+                    <li>The underline below the text fades out in 0.5 seconds</li>
+                </ul>
+            </ul>
+
+            <br>
+            <!-- <li>Click:</li> -->
+            <br>
+            <ul>
+                <li>Click:</li>
+                <ul>
+                    <li>Takes user to the search results page in the same tab</li>
+                    <li>Stores any inputted text from the text-field into a database</li>
+                    <li>User-inputted text from the text-field gets displayed in the URL</li>
+                </ul>
+            </ul>
+            <br>
+            <br>
+            <li class="objectHeader">Search text-field:</li>
+            <br>
+            <ul>
+                <li>Hover on:</li>
+                <ul>
+                    <li>The cursor changes to the I-beam pointer</li>
+                    <li>Slight shadow appears around the text-field in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off:</li>
+                <ul>
+                    <li>The cursor reverts to the default pointer</li>
+                    <li>Slight shadow around text-field disappears in 0.5 seconds</li>
+                </ul>
+            </ul>
+
+            <br>
+            <!-- <li>Click:</li> -->
+            <br>
+            <ul>
+                <li>Click on:</li>
+                <ul>
+                    <li>Type indicator icon starts flickering in 0.5 second intervals</li>
+                    <li>Black border appears around text-field in 0.5 seconds</li>
+                    <li>Sample typing text gets added to the field in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <br>
+            <ul>
+                <li>Click off:</li>
+                <ul>
+                    <li>Type indicator icon fades out in 0.5 seconds</li>
+                    <li>Black border around text-field fades out in 0.5 seconds</li>
+                    <li>Sample typing text fades out in 0.5 seconds OR is replaced by any user-inputted text in the text-field</li>
+                </ul>
+            </ul>
+
+        </ul>
+
+        </ul>
+
+        <h1>Feedback:</h1>
+        <ul>
+            <li class="objectHeader">Term Master Schedule WebTMS button:</li>
+            <br>
+            <ul>
+                <li>Hover on:</li>
+                <ul>
+                    <li>The cursor changes to the finger icon</li>
+                    <li>Button color fades to a lighter blue in 0.5 seconds</li>
+                    <li>An underline fades in below the text in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off:</li>
+                <ul>
+                    <li>The cursor reverts to the default pointer</li>
+                    <li>Button color fades back to original dark blue in 0.5 seconds</li>
+                    <li>The underline below the text fades out in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <ul>
+                <li>Click:</li>
+                <ul>
+                    <li>Opens respective page in new tab</li>
+                </ul>
+            </ul>
+
+
+            <br>
+            <br>
+            <li class="objectHeader">Search button:</li>
+            <br>
+            <ul>
+                <li>Hover on:</li>
+                <ul>
+                    <li>The cursor changes to the finger icon</li>
+                    <li>Button color fades to a lighter blue in 0.5 seconds</li>
+                    <li>An underline fades in below the text in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off:</li>
+                <ul>
+                    <li>The cursor reverts to the default pointer</li>
+                    <li>Button color fades back to original dark blue in 0.5 seconds</li>
+                    <li>The underline below the text fades out in 0.5 seconds</li>
+                </ul>
+            </ul>
+
+            <br>
+            <!-- <li>Click:</li> -->
+            <br>
+            <ul>
+                <li>Click:</li>
+                <ul>
+                    <li>Takes user to the search results page in the same tab</li>
+                    <li>User-inputted text from the text-field gets dissplayed in the URL</li>
+                </ul>
+            </ul>
+            <br>
+            <br>
+            <li class="objectHeader">Search text-field:</li>
+            <br>
+            <ul>
+                <li>Hover on:</li>
+                <ul>
+                    <li>The cursor changes to the I-beam pointer</li>
+                    <li>Slight shadow appears around the text-field in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <!-- <li>Hover off:</li> -->
+            <br>
+            <ul>
+                <li>Hover off:</li>
+                <ul>
+                    <li>The cursor reverts to the default pointer</li>
+                    <li>Slight shadow around text-field disappears in 0.5 seconds</li>
+                </ul>
+            </ul>
+
+            <br>
+            <!-- <li>Click:</li> -->
+            <br>
+            <ul>
+                <li>Click on:</li>
+                <ul>
+                    <li>Type indicator icon starts flickering in 0.5 second intervals</li>
+                    <li>Black border appears around text-field in 0.5 seconds</li>
+                    <li>Sample typing text gets added to the field in 0.5 seconds</li>
+                </ul>
+            </ul>
+            <br>
+            <br>
+            <ul>
+                <li>Click off:</li>
+                <ul>
+                    <li>Type indicator icon fades out in 0.5 seconds</li>
+                    <li>Black border around text-field fades out in 0.5 seconds</li>
+                    <li>Sample typing text fades out in 0.5 seconds OR is replaced by any user-inputted text in the text-field</li>
+                </ul>
+            </ul>
+
+        </ul>
+
+        </ul>
+
+
+        <h1>Loops & Modes:</h1>
+        <ul>
+            <li>There are no Loops & Modes present in this interaction</li>
+        </ul>
+
+    </div>
+    <br>
+    <br>
+    <h2 class="ImageHeaders">Beta WebTMS Button images:</h1>
+    <br>
+    <div class="BetaImages">
+        <img src="Images/BetaTMS1.png" alt="BetaTMSImage1">
+        <img src="Images/BetaTMS2.png" alt="BetaTMSImage12">
+    </div>
+    <br>
+    <br>
+    <h2 class="ImageHeaders">Beta Search Button images:</h1>
+    <br>
+    <div class="BetaImages">
+        <img class="SearchImages" src="Images/BetaSearch1.png" alt="BetaSearchImage1">
+        <img class="SearchImages" src="Images/BetaSearch2.png" alt="BetaSearchImage2">
+    </div>
+    <br>
+    <br>
+    <h2 class="ImageHeaders">Beta Search Text-field images:</h1>
+    <br>
+    <div class="BetaImages">
+        <img src="Images/BetaField1.png" alt="BetaFieldImage1">
+        <img src="Images/BetaField2.png" alt="BetaFieldImage2">
+        <img src="Images/BetaField3.png" alt="BetaFieldImage3">
+        <img src="Images/BetaField4.png" alt="BetaFieldImage4">
+
+    </div>
+    <br>
+
+</body>
+
+</html>
