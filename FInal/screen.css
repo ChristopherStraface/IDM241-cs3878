@@ -91,8 +91,8 @@ a {
   }
 
   .FinalImages img {
-    height: 200px;
-    width: 500px;
+    height: 500px;
+    width: 800px;
   }
 
   .ImageHeaders {
@@ -197,5 +197,10 @@ a {
         padding-bottom: 10px;
         font-size: 30px;
     }
+
+    .FinalImages img {
+    height: 300px;
+    width: 500px;
+  }
 
 }
