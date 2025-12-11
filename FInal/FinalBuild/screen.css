@@ -31,6 +31,10 @@ a {
     font-size: 30px;
 }
 
+.Divider {
+    border: 1px solid darkblue;
+}
+
 .Info {
     display: flex;
     flex-direction: column;
