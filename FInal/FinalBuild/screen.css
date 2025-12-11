@@ -31,6 +31,12 @@ a {
     font-size: 30px;
 }
 
+.Info .Divider {
+    border: 1px solid darkblue;
+    width: calc(100% - 400px); /* subtract padding-left of .Info */
+    margin: 20px 0;
+}
+
 .Divider {
     border: 1px solid darkblue;
 }
@@ -40,6 +46,10 @@ a {
     flex-direction: column;
     padding-left: 400px;
     padding-bottom: 30px;
+}
+
+.Info hr {
+    padding-left: 0px;
 }
 
 
