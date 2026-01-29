@@ -237,15 +237,15 @@ input[type="text"]:focus {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
     letter-spacing: 0.5px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     padding: 0 14px;
-    border-radius: 6px;
+    border-radius: 0.33rem;
     transition: 0.3s ease;
 }
 
