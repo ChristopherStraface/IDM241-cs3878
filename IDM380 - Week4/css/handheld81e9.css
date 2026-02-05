@@ -1,77 +1,77 @@
-#wrapper {
+main#wrapper {
 	width: auto;
 	margin: 0 auto;
 }
-#header {
+header#top section#header {
 	height: auto;
 	position: relative;
 	overflow: hidden;
 }
-#header img {
+header#top section#header img {
 	max-width: 500px;
 }
-#navigation {
+nav#navigation {
 	margin: 0;
 	padding: 5px;
 	height: auto;
 	width: auto;
 	background: #0a3365;
 }
-#navigation ul {
+nav#navigation ul {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-#navigation ul li {
+nav#navigation ul li {
 	display: block;
 }
-#navigation ul li span {
+nav#navigation ul li em {
 	display: block;
 }
-#navigation a {
+nav#navigation a {
 	margin: 0px 18px 10px 0;
 	color: #b8c0cc;
 	text-decoration: none;
 }
-#navigation a:hover {
+nav#navigation a:hover {
 	color: #fff;
 }
-#content_wrapper {
+section#content_wrapper {
 	width: auto;
 	background: none;
 	position: static;
 }
-#content {
+article#content {
 	padding: 10px;
 }
-#content_left {
+section#content_left {
 	padding: 0;
 }
-#column_1 {
+section#column_1 {
 	margin: 0;
 	width: auto;
 	float: none;
 }
-#column_2 {
+aside#column_2 {
 	width: auto;
 	margin: 0;
 	float: none;
 }
-#footer {
+footer#footer {
 	width: auto;
 	background: none;
 	height: auto;
 	color: #666;
 	margin: 0;
 }
-#footer .left {
+footer#footer .left {
 	float: none;
 	margin: 10px 0;
 	width: auto;
 }
-#footer .right {
+footer#footer .right {
 	float: none;
 	margin: 0;
 	width: auto;
